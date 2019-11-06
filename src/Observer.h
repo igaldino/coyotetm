@@ -29,7 +29,8 @@ class Observer;
 class Observer
 {
    public:
-      virtual void notify(const Subject& subject, const std::string& message)=0;
+      virtual ~Observer() {};
+      virtual void notify(const Subject& subject, const std::string& message) = 0;
 };
 
 #endif
