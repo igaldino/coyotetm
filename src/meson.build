@@ -1,0 +1,45 @@
+sources = files(
+  'Date.cxx',
+  'Subject.cxx',
+  'ImageDB.cxx',
+  'Database.cxx',
+  'KeyDAO.cxx',
+  'PersonDAO.cxx',
+  'ProjectDAO.cxx',
+  'TaskDAO.cxx',
+  'OccurrenceDAO.cxx',
+  'Person.cxx',
+  'Project.cxx',
+  'Task.cxx',
+  'Occurrence.cxx',
+  'UI.cxx',
+  'ListView.cxx',
+  'PersonListView.cxx',
+  'ProjectListView.cxx',
+  'TaskListView.cxx',
+  'OccurrenceListView.cxx',
+  'PriorityChoiceView.cxx',
+  'StatusChoiceView.cxx',
+  'PersonChoiceView.cxx',
+  'ProjectChoiceView.cxx',
+  'TaskChoiceView.cxx',
+  'ProjectEditUI.cxx',
+  'PersonEditUI.cxx',
+  'TaskEditUI.cxx',
+  'OccurrenceEditUI.cxx',
+  'PersonUI.cxx',
+  'ProjectUI.cxx',
+  'TaskUI.cxx',
+  'OccurrenceUI.cxx',
+  'coyotetm.cxx'
+)
+
+executable(
+  coyotetm_name,
+  sources,
+  include_directories: top_inc,
+  dependencies: coyotetm_deps,
+  install: true,
+  install_dir: coyotetm_bindir
+)
+
