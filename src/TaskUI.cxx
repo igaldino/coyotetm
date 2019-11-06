@@ -331,6 +331,7 @@ TaskUI::get_show_all()
    {
       return item->value();
    }
+   return 0;
 }
 
 void
