@@ -25,10 +25,7 @@
 
 class UI;
 
-#ifndef VERSION
-#define VERSION "0.8"
-#endif
-
+#include <config.h>
 #include <string>
 #include <FL/Fl.H>
 #include <FL/Fl_Window.H>
