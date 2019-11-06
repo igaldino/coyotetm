@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=CoyoteTM
+Comment=Manage tasks like a coyote
+Icon=coyotetm.png
+Exec=coyotetm
+

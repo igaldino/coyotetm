@@ -1,0 +1,47 @@
+Coyote Task Manager
+
+Copyright (C) 2000-2015 Isaque Galdino de Araujo.
+Written by Isaque Galdino de Araujo <igaldino@gmail.com>
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA
+02111-1307, USA.
+
+HOW TO BUILD IT
+
+Install libdb_cxx and libfltk development files
+
+Download the code
+
+$ tar xzf coyotetm-<latest-version>.tgz
+$ cd coyotetm
+$ ./configure
+$ make
+$ sudo make install
+
+HOW TO EXECUTE IT
+
+$ /usr/local/bin/coyotetm
+
+It will create ~/coyotetm directory for database files
+
+You have three arguments:
+--dump
+   it will dump the data in a text format to you stdout
+--reindex
+   if for whatever reason the application crash, it might
+   damage your index, so just reindexit
+--version
+   application version
+

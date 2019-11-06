@@ -1,0 +1,92 @@
+2015-10-15 v0.8
+Fixed compilation warnings when including xpm files;
+Removed borders from all menubar and toolbar buttons;
+Added code to persist chosen color scheme and selected show all tasks option across sessions;
+Added 4 color schemes, 2 light (the default based on Adwaita palette and another one based on Ambiance palette) and 2 dark (the previous dark one and the new one based on Numix palette);
+Added read-only mode for notes fields, so use can select text. Before it was not possible;
+Cancel pending work code refactoring done.
+
+2015-08-28 v0.7
+Fixed warnings about using variables in fl_choice;
+Added support for ambience color palette;
+Changed icon handling to support fltk-1.3.* (before it was supporting only fltk-1.3.3 and above which is not the version in Ubuntu/Linux Mint);
+Changed internal image array to Fl_Image instead of Fl_Pixmap, so we can handle Fl_RGB_Image (for icon);
+Implemented support for multiple color schemes;
+Removal of enumeration names;
+Fixed mouse click focus on list items;
+Enabled enter key to open list items;
+Added sort to person and project uis;
+Fix list view so variable column can be at the beginning of the the list;
+Prevent saving history which has some pending error to fix;
+Won't allow when date to be earlier than begin task date when editing history;
+Added remove button to edit history, project and person windows;
+Prevent saving tasks which has some pending error to fix;
+Won't allow end date to be earlier than begin date when editing task;
+Added mark canceled and completed buttons to task edit window;
+Moved task description to the beginning of the list again;
+Replaced "Cancel" to "Mark Canceled" task in task view;
+Improved messages for remove person, project and history and to mark task canceled and completed information windows;
+Improved read-only input fields look to match with inactive;
+Added option --dev;
+Changed task count in task view;
+Narrowed list view borders;
+Removed checking for message in notify;
+Added key up and down in list views;
+Create a list base class;
+Fix directory created window;
+Add shortcuts to ok and cancel button;
+Fix spinning cursor in gnome; and
+Change File / Edit to File / Open.
+
+2015-07-13 v0.6
+
+Added a task combobox in history view, so you'll know which task that history is refering too;
+Changed remove button in history view to only remove history of tasks in progress. It will ask to open the task view otherwise;
+Small fix to some parts where CoyoteTM was displaying Coyote TM;
+Fixed spacing between menus and shortcuts; and
+Merged canceled and completed view menu checkboxes to only "show all" now.
+
+2015-07-12 v0.5
+
+Fixed task list view buggy multiselection by dropping FL_DRAG event
+Changed task list view sort to sort by category and then sort by status
+Changed don't start task behaviour to open history but in read-only mode
+Added read-only mode for task edit window when status is: ON HOLD, COMPLETED or CANCELED
+Added history view
+Added desktop file for DE integration, besides application icons
+Improved about window
+Added --version command line parameter
+
+2015-06-14 v0.4
+
+Move count to toolbar
+Add shortcuts
+Start a task when a new follow up is created
+Check for project and person before saving
+Fix you still have "working" in progress
+Add dark color schema
+Apply square boxes to all widgets
+Fix notes boxes to FL_DOWN_BOX
+Fix take_focus
+Fix task list sort
+Fix buttons space in edit windows
+Add minimum size for windows
+Update titles when changes description/name
+Change person and project list column label 1 to name
+Fix person list resize
+Fix follow up sort
+Fix task list in edit windows
+Reduce font size
+Don't deactive project neither person
+Add validation to ProjectUI
+Add validation to PersonEditUI
+Auto select project and person if there is only one
+
+2014-07-24 v0.3
+
+fixed few bugs in the fltk version
+
+2014-04-29 v0.2
+
+will be last fltk version
+
