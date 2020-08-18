@@ -12,6 +12,7 @@ coyotetm_version = meson.project_version()
 coyotetm_prefix = get_option('prefix')
 coyotetm_bindir = join_paths(coyotetm_prefix, get_option('bindir'))
 coyotetm_libexecdir = join_paths(coyotetm_prefix, get_option('libexecdir'))
+coyotetm_datadir = join_paths(coyotetm_prefix, get_option('datadir'))
 
 cc = meson.get_compiler('cpp')
 
@@ -66,9 +67,9 @@ coyotetm_deps = [
 ]
 
 top_inc = include_directories('.')
+xpm_inc = include_directories('data/xpm')
 
-icons_inc = include_directories('data/icons')
-
+subdir('data')
 subdir('src')
 
 configure_file(

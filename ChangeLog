@@ -1,4 +1,12 @@
+2020-08-18 v0.9
+
+Moved to Github;
+Changed to meson;
+Added flatpak support; and
+Added appdata.
+
 2015-10-15 v0.8
+
 Fixed compilation warnings when including xpm files;
 Removed borders from all menubar and toolbar buttons;
 Added code to persist chosen color scheme and selected show all tasks option across sessions;
@@ -7,6 +15,7 @@ Added read-only mode for notes fields, so use can select text. Before it was not
 Cancel pending work code refactoring done.
 
 2015-08-28 v0.7
+
 Fixed warnings about using variables in fl_choice;
 Added support for ambience color palette;
 Changed icon handling to support fltk-1.3.* (before it was supporting only fltk-1.3.3 and above which is not the version in Ubuntu/Linux Mint);
