@@ -67,6 +67,8 @@ coyotetm_deps = [
 
 top_inc = include_directories('.')
 
+icons_inc = include_directories('data/icons')
+
 subdir('src')
 
 configure_file(

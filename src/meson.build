@@ -37,7 +37,7 @@ sources = files(
 executable(
   coyotetm_name,
   sources,
-  include_directories: top_inc,
+  include_directories: [ top_inc, icons_inc ],
   dependencies: coyotetm_deps,
   install: true,
   install_dir: coyotetm_bindir
