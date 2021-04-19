@@ -30,6 +30,11 @@
   </screenshots>
 
   <releases>
+    <release date="2021-04-18" version="1.0">
+      <description>
+        <p>I believe it's time!</p>
+      </description>
+    </release>
     <release date="2020-08-18" version="0.9">
       <description>
         <p>This release brings the following new features and improvements:</p>

@@ -83,8 +83,8 @@
             "builddir" : true,
             "sources" : [
                 {
-                    "type" : "dir",
-                    "path" : "/home/isaque/Desenvolvimento/coyotetm"
+                    "type" : "git",
+                    "url" : "https://github.com/igaldino/coyotetm.git"
                 }
             ]
         }
