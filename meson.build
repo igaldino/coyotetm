@@ -1,6 +1,6 @@
 project(
   'coyotetm', 'cpp',
-  version: '1.0',
+  version: '1.1',
   license: 'GPL3',
   default_options: ['c_std=c11', 'cpp_std=c++11', 'buildtype=debugoptimized'],
   meson_version: '>= 0.43.0'
