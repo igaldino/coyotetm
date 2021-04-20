@@ -3,7 +3,7 @@
   <id>io.github.igaldino.CoyoteTM</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0+ and LGPL-3.0 and LGPL-2.0+</project_license>
-  <name>CoyotetM</name>
+  <name>CoyoteTM</name>
   <summary>Manage tasks like a coyote</summary>
   <description>
     <p>
@@ -13,23 +13,32 @@
   <screenshots>
     <screenshot type="default">
       <caption>Main view</caption>
-      <image width="800" height="647">https://github.com/igaldino/coyotetm/raw/master/data/appdata/main.png</image>
+      <image width="800" height="637">https://raw.githubusercontent.com/igaldino/coyotetm/coyotetm-1-0/data/appdata/main.png</image>
     </screenshot>
     <screenshot>
       <caption>Project view</caption>
-      <image width="800" height="647">https://github.com/igaldino/coyotetm/raw/master/data/appdata/project.png</image>
+      <image width="800" height="637">https://raw.githubusercontent.com/igaldino/coyotetm/coyotetm-1-0/data/appdata/project.png</image>
     </screenshot>
     <screenshot>
       <caption>Edit view</caption>
-      <image width="800" height="647">https://github.com/igaldino/coyotetm/raw/master/data/appdata/edit.png</image>
+      <image width="800" height="637">https://raw.githubusercontent.com/igaldino/coyotetm/coyotetm-1-0/data/appdata/edit.png</image>
     </screenshot>
     <screenshot>
       <caption>Many views</caption>
-      <image width="800" height="647">https://github.com/igaldino/coyotetm/raw/master/data/appdata/full.png</image>
+      <image width="800" height="637">https://raw.githubusercontent.com/igaldino/coyotetm/coyotetm-1-0/data/appdata/full.png</image>
     </screenshot>
   </screenshots>
 
   <releases>
+    <release date="2021-04-19" version="1.1">
+      <description>
+        <p>This release brings the following new features and improvements:</p>
+        <ul>
+          <li>Fix flathub compliance issues</li>
+          <li>Fix appdata screenshots URLs</li>
+        </ul>
+      </description>
+    </release>
     <release date="2021-04-18" version="1.0">
       <description>
         <p>I believe it's time!</p>
