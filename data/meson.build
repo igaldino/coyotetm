@@ -12,10 +12,17 @@ install_data(
   install_dir: join_paths(coyotetm_datadir, 'applications')
 )
 
-icon = 'io.github.igaldino.CoyoteTM.png'
+icon = 'io.github.igaldino.CoyoteTM.svg'
 
 install_data(
-  join_paths('icons', 'hicolor', '48x48', 'apps', icon),
-  install_dir: join_paths(coyotetm_datadir, 'icons', 'hicolor', '48x48', 'apps')
+  join_paths('icons', icon),
+  install_dir: join_paths(coyotetm_datadir, 'icons', 'hicolor', 'scalable', 'apps')
+)
+
+symbolic_icon = 'io.github.igaldino.CoyoteTM-symbolic.svg'
+
+install_data(
+  join_paths('icons', symbolic_icon),
+  install_dir: join_paths(coyotetm_datadir, 'icons', 'hicolor', 'symbolic', 'apps')
 )
 
