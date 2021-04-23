@@ -2,6 +2,6 @@
 Type=Application
 Name=CoyoteTM
 Comment=Manage tasks like a coyote
-Icon=io.github.igaldino.CoyoteTM.svg
+Icon=io.github.igaldino.CoyoteTM
 Exec=coyotetm
 
