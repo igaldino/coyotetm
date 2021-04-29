@@ -18,6 +18,8 @@ cc = meson.get_compiler('cpp')
 
 config_h = configuration_data()
 
+application_id = 'io.github.igaldino.CoyoteTM'
+
 # defines
 set_defines = [
   # package
@@ -75,6 +77,14 @@ subdir('src')
 configure_file(
   output: 'config.h',
   configuration: config_h
+)
+
+meson.add_install_script(
+  'build-aux/meson_post_install.py',
+  application_id,
+  coyotetm_prefix,
+  coyotetm_bindir,
+  coyotetm_datadir
 )
 
 output = '  Version: ' + coyotetm_version + '\n'
