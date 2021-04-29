@@ -467,7 +467,7 @@ void
 UI::set_icon(Fl_Window* window)
 {
    window->icon(reinterpret_cast<Fl_RGB_Image*>(ImageDB::get_image_db().get(ImageDB::ICON)));
-   window->xclass("CoyoteTM");
+   window->xclass("io.github.igaldino.CoyoteTM");
 }
 
 const int&
