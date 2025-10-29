@@ -45,3 +45,10 @@ You have three arguments:
 --version
    application version
 
+FLATPAK
+
+You can download the flatpak version from https://flathub.org/en/apps/io.github.igaldino.CoyoteTM
+
+In order to use the home directory to store tasks, override flatpak's default:
+
+$ flatpak override --user --filesystem=/home/you/coyotetm io.github.igaldino.CoyoteTM
